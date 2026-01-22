@@ -35,16 +35,17 @@ The goal was to take a raw Netflix CSV file and build a clean, structured, and q
 ---
 
 ## 🏗️ Project Architecture
+
 Raw CSV File
-↓
+    ↓
 Python (pandas)
-↓
+    ↓
 PostgreSQL (netflix_raw)
-↓
+    ↓
 SQL Data Cleaning & Transformation
-↓
+    ↓
 Staging Tables
-↓
+    ↓
 Analytics-Ready Tables
 
 
