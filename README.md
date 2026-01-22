@@ -71,9 +71,6 @@ The raw Netflix dataset is loaded using **Python (pandas)** and inserted into Po
 - Supports incremental loading using `if_exists='append'`
 - Data is first stored in a raw table (`netflix_raw`) before any transformations
 
-📸 *CSV ingestion and database loading*  
-![Data Ingestion](images/data_ingestion.png)
-
 ---
 
 ## 🧹 Data Cleaning & Transformation (SQL)
@@ -97,8 +94,7 @@ Used:
 - `CROSS JOIN LATERAL`
 - `TRIM`
 
-📸 *Normalized tables after cleaning*  
-![Normalized Tables](images/normalized_tables.png)
+
 
 ---
 
@@ -114,9 +110,6 @@ Used:
 - Populated missing country values using rule-based SQL inference
 - Replaced remaining nulls with standardized placeholders
 
-📸 *Cleaned and staged Netflix table*  
-![Staged Table](images/staged_table.png)
-
 ---
 
 ## 📊 Business Questions Answered
@@ -129,8 +122,6 @@ The cleaned dataset enables answering real business questions such as:
 - Average movie duration by genre
 - Directors who have created both comedy and horror movies
 
-📸 *Sample analytical query output*  
-![Business Analysis](images/business_analysis.png)
 
 ---
 
