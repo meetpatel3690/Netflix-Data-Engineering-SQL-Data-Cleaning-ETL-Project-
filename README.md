@@ -8,7 +8,7 @@
 
 This project demonstrates how real-world datasets are cleaned, normalized, and prepared before any meaningful analysis can happen.
 
-Instead of jumping directly into dashboards or visualizations, this project focuses on the **most critical phase of analytics — data preparation**.  
+Instead of jumping directly into dashboards or visualizations, this project focuses on the **most critical phase of analytics  data preparation**.  
 The goal was to take a raw Netflix CSV file and build a clean, structured, and query-optimized database that supports business-level analysis.
 ---
 
