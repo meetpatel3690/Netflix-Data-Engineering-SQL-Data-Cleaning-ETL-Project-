@@ -1,6 +1,6 @@
 # 🎬 Netflix Data Engineering & SQL Data Cleaning (ETL Project)
 
-> An end-to-end **Data Engineering & SQL data cleaning project** focused on transforming raw, messy Netflix data into clean, analytics-ready tables using **ETL Concepts, Python, PostgreSQL, and SQL**.
+An end-to-end **Data Engineering & SQL data cleaning project** focused on transforming raw, messy Netflix data into clean, analytics-ready tables using **ETL Concepts, Python, PostgreSQL, and SQL**.
 
 ---
 
@@ -10,6 +10,10 @@ This project demonstrates how real-world datasets are cleaned, normalized, and p
 
 Instead of jumping directly into dashboards or visualizations, this project focuses on the **most critical phase of analytics  data preparation**.  
 The goal was to take a raw Netflix CSV file and build a clean, structured, and query-optimized database that supports business-level analysis.
+
+## 🏗️ System Architecture
+
+![System Architecture](sys_architecture.png)
 ---
 
 ## 🧠 What This Project Demonstrates
