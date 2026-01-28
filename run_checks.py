@@ -21,11 +21,11 @@ def main():
     except Exception as e:
         print(f"Error reading CSV '{csv_path}':", e)
 
-    username = 'postgres'
-    password = '3690'
-    host = 'localhost'
-    port = '5432'
-    database = 'Netflix_DB'
+    username = 'type-your-db-username'
+    password = 'type-your-pwd'
+    host = 'type-your-host-name'
+    port = 'type-your-port-number'
+    database = 'type-your-db-name'
     engine_url = f"postgresql+psycopg2://{username}:{password}@{host}:{port}/{database}"
     print("Constructed engine URL (not safe to print credentials in general):", engine_url)
 
